@@ -18,7 +18,7 @@ export function NavBar() {
             </motion.a>
             <div className="hidden md:inline-flex flex-row items-center h-16 pr-16">
                 {routes.map(route => (
-                    <div className="mx-8 my-auto" key={route}>
+                    <div className="mx-8 my-auto">
                         <motion.a href={`#${route.toLowerCase()}`} className=' text-slate-300 hover:text-slate-500'
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}

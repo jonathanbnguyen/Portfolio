@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Section({ id, title, children }) {
     return (
         <div className="lg:pd-8 m-auto md:w-full lg:w-full xl:w-3/4 lg:p-8 w-full xl:p-4 p-4 " id={id}>

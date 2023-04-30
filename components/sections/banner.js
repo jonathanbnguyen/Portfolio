@@ -21,14 +21,17 @@ export function Banner() {
                 dependably learn through experience.
             </p>
 
-            <a
-                href="Jonathan_Nguyen_Resume.pdf"
-                target="_blank"
-                >
-                <button className="rounded-md bg-transparent border border-blue-400 p-4 text-blue-400 hover:bg-blue-400/20 transition duration-200 ease-in">
-                    Resume
-                </button>
-            </a>
+            <div>
+                <a
+                    href="Jonathan_Nguyen_Resume.pdf"
+                    target="_blank"
+                    >
+                    <button className="rounded-md bg-transparent border border-blue-400 p-4 text-blue-400 hover:bg-blue-400/20 transition duration-200 ease-in">
+                        Resume
+                    </button>
+                </a>
+            </div>  
+
         </section>
     )
 }
