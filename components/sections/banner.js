@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export function Banner() {
     return (
         <section id="home" 
-            className="max-w-max mx-auto py-20 md:py-20 flex flex-col gap-4
+            className="h-screen max-w-max mx-auto py-20 md:py-20 flex flex-col gap-4
                 lg:gap-8 md:px-20 xl:px-4 text-white"
             >
             <h1 className="text-lg tracking-wide">

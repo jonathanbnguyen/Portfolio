@@ -3,7 +3,7 @@ import { SlSocialLinkedin, SlSocialInstagram, } from "react-icons/sl";
 
 const RightSide = () => {
     return (
-        <div className="w-full h-full flex flex-col items-center justify-center gap-4 text-black">
+        <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-black">
             <div className="flex flex-col gap-4"> 
                 <a href="https://github.com/jonathanbnguyen/" target="_blank">
                     <span className="w-10 h-10 text-xl bg-white rounded-full inline-flex items-center 

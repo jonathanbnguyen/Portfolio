@@ -1,5 +1,5 @@
-import Section from "../section"
-import SkillCard from "../skillscard"
+import Section from "../cards/section"
+import SkillCard from "../cards/skillscard"
 import { Group } from "../data/skillsdata"
 
 export default function Skills() {
@@ -17,7 +17,7 @@ export default function Skills() {
 
                     {Titles.map(group =>
                         (
-                            <div key={`${group.name}`}>
+                            <div key={group.name}>
                                 <p className="font-semibold text-white">{group.name}</p>
                                 <div className="flex flex-row flex-wrap">
                                     {group.values.map(skill => (

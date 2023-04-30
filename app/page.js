@@ -4,11 +4,12 @@ import RightSide from "../components/sections/rightside"
 import Banner from "portfolio/components/sections/banner";
 import About from "portfolio/components/sections/about";
 import Skills from "portfolio/components/sections/skills";
+import Experience from "portfolio/components/sections/experience";
 
 export default function Home() {
 	return (
-		<main className="w-full h-full overflow-x-hidden overflow-y-hidden">
-			<motion.div className="mx-auto p-4"
+		<main className="relative z-0">
+			<motion.div className="mx-auto p-2"
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				transition={{ delay: 1 }}
@@ -16,8 +17,9 @@ export default function Home() {
 				<Banner />
 				<About />
 				<Skills />
+				<Experience />
 			</motion.div>
-
+			
 			<div>
 				<motion.div className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
 					initial={{ opacity: 0 }}
