@@ -28,6 +28,17 @@ export function NavBar() {
                         </motion.a>
                     </div>
                 ))}
+                
+                <div className="mx-8 my-auto">
+                    <a
+                        href="Jonathan_Nguyen_Resume.pdf"
+                        target="_blank"
+                        >
+                        <button className="rounded-md bg-transparent border border-blue-400 p-2 text-blue-400 hover:bg-blue-400/20 transition duration-200 ease-in">
+                            Resume
+                        </button>
+                    </a>
+                </div>  
             </div>
         </div>
     );
