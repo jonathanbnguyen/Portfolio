@@ -20,7 +20,7 @@ export default function Skills() {
                             <div key={`${group.name}`}>
                                 <p className="font-semibold text-white">{group.name}</p>
                                 <div className="flex flex-row flex-wrap">
-                                    {group.values.map((skill) => (
+                                    {group.values.map(skill => (
                                         <SkillCard key={skill} title={skill} />
                                     ))}
                                 </div>
