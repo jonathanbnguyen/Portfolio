@@ -4,7 +4,8 @@ export const Group = [
         values: [
             "C++",
             "C#",
-            "Python"
+            "Python",
+            "JavaScript"
         ]
     },
     {
