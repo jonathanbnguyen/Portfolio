@@ -17,12 +17,24 @@ export const Group = [
     },
     {
         name: "Portfilio",
-        description: "My personal portfolio website. Shows everyting about me, the website you're looking at right now!",
+        description: "My personal portfolio website. Shows everything about me, the website you're looking at right now!",
         tech: [
             "JavaScript",
             "React",
             "Next.js",
-            "Tailwind CSS"
+            "Tailwind CSS",
+            "Git"
+        ]
+    },
+    {
+        name: "TNKCars",
+        description: "A simple CRUD database project used for a car inventory system.",
+        tech: [
+            "C#",
+            ".NET",
+            "PostgreSQL",
+            "WCF",
+            "Git"
         ]
     }
 ]
