@@ -5,6 +5,7 @@ import Banner from "portfolio/components/sections/banner";
 import About from "portfolio/components/sections/about";
 import Skills from "portfolio/components/sections/skills";
 import Experience from "portfolio/components/sections/experience";
+import Projects from "portfolio/components/sections/projects";
 
 export default function Home() {
 	return (
@@ -15,10 +16,12 @@ export default function Home() {
 				transition={{ delay: 1 }}
 				>
 				<Banner />
-				<About />
-				<Skills />
-				<Experience />
 			</motion.div>
+
+			<About />
+			<Skills />
+			<Experience />
+			<Projects />
 			
 			<div>
 				<motion.div className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
