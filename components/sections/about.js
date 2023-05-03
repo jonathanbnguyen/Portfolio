@@ -16,7 +16,7 @@ export default function About() {
                         I will find the answer.
                     </p>
                     <p>
-                        I have various hobbies I do during my free time. I love working out, it's a great
+                        I have various hobbies I do during my free time. I love working out, it is a great
                         stress reliever for me and I love being able to improve everyday. I love basketball. 
                         I started playing when I was 10 years old and loved it every since. I am a huge
                         Los Angeles Lakers fan and grew up watching Kobe Bryant. I also play video games.
