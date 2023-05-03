@@ -28,6 +28,7 @@ export default function About() {
                 <div className="items-center md:order-none order-first m-auto">
                     <Image
                         src={aboutPic}
+                        alt=""
                         className="mt-4 md:w-96"
                     />
                 </div>
