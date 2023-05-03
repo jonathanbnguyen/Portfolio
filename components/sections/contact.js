@@ -2,7 +2,7 @@ import Section from "../cards/section";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialLinkedin, SlSocialInstagram, } from "react-icons/sl"; 
+import { SlSocialLinkedin, SlSocialInstagram, } from "react-icons/sl";
 
 export default function Contact() {
     return (
@@ -60,7 +60,7 @@ export default function Contact() {
                         <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                             <div className="p-4">
                                 <form
-                                    action="temp"
+                                    action={process.env.EMAILFORM}
                                     method="POST"
                                     encType="multipart/form-data"
                                 >
