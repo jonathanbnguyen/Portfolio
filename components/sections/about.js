@@ -11,7 +11,7 @@ export default function About() {
                         My name is Jonathan Nguyen. I started off in technology from playing video games on my 
                         PlayStation 2. Ever since that day, I always had the curiosity of how these games
                         were developed. I began more intuitive with technology with time and experience
-                        and become basically the "Tech Guy" of my family. With any conflict, I will always
+                        and become basically the tech guy of my family. With any conflict, I will always
                         find a solution. Whether it takes me time to research or for me to ask for help,
                         I will find the answer.
                     </p>
