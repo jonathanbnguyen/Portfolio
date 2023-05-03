@@ -10,4 +10,4 @@ export default function Card({ children, title, repoIcon }) {
             {children}
         </div>
     );
-};
+}

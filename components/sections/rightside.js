@@ -30,6 +30,6 @@ const RightSide = () => {
             <div className="w-[2px] h-32 bg-white"></div>
         </div>
     );
-};
+}
 
 export default RightSide;

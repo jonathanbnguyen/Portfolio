@@ -1,6 +1,6 @@
-import Section from "../cards/section"
-import SkillCard from "../cards/skillscard"
-import { Group } from "../data/skillsdata"
+import Section from "../cards/section";
+import SkillCard from "../cards/skillscard";
+import { Group } from "../data/skillsdata";
 
 export default function Skills() {
     const Titles = Group;
@@ -34,5 +34,5 @@ export default function Skills() {
                 </div> */}
             </div>
         </Section>
-    )
+    );
 }

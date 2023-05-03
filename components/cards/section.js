@@ -8,4 +8,4 @@ export default function Section({ id, title, children }) {
             {children}
         </div>
     );
-};
+}

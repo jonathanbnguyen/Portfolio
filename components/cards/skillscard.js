@@ -5,4 +5,4 @@ export default function SkillCard({ title }) {
             {title}
         </span>
     );
-};
+}

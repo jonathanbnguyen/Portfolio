@@ -1,6 +1,6 @@
-import Section from "../cards/section"
-import Image from "next/image"
-import aboutPic from ".././../public/new.jpg"
+import Section from "../cards/section";
+import Image from "next/image";
+import aboutPic from ".././../public/new.jpg";
 
 export default function About() {
     return (
@@ -35,5 +35,5 @@ export default function About() {
             </div>
 
         </Section>
-    )
+    );
 }
