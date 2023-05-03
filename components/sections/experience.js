@@ -56,7 +56,7 @@ export default function Experience() {
     
     return (
         <Section id="work" title="Experience">
-            <div className='mt-10 flex flex-col'>
+            <div className='mt-8 flex flex-col'>
                 <VerticalTimeline>
                     {workExperience.map((experience, index) => (
                         <ExperienceCard
