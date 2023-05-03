@@ -10,7 +10,7 @@ export default function Projects() {
     function GitHub({ link }) {
         return (
             <a href={link} target="_blank" aria-label='Opens the page for the GitHub project' rel="noreferrer">
-                <div className="w-8 h-8 text-xl bg-white rounded-full inline-flex items-center 
+                <div className="w-9 h-9 text-xl bg-white rounded-full inline-flex items-center 
                         justify-center hover:text-blue-500 cursor-pointer
                         transition-all duration-300">
                     <TbBrandGithub />
