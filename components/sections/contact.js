@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <Section id="contact" title="Contact">
             <div className="w-full">
-                <div className="max-w-full m-auto px-2 py-16 w-full">
+                <div className="max-w-full m-auto px-2 pt-8 w-full">
                     <div className="grid lg:grid-cols-5 gap-8">
                         {/* left */}
                         <div className="h-44 col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
