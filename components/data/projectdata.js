@@ -2,8 +2,7 @@ export const Group = [
     {
         name: "MyPantry",
         description: 
-            "MyPantry is a cross-platform mobile application that helps users with everyday within the kitchen. "
-            + "Features include a full inventory system, search/save/create recipes, and spending tracker."
+            "MyPantry is a cross-platform mobile application that helps users with everyday kitchen life with a full inventory system, search/save/create recipes, and spending tracker."
         ,
         tech: [
             "JavaScript",
@@ -15,7 +14,7 @@ export const Group = [
     },
     {
         name: "Portfilio",
-        description: "My personal portfolio website. Shows everything about me, the website you're looking at right now!",
+        description: "My personal portfolio website that shows everything about me, the website you're looking at right now!",
         tech: [
             "JavaScript",
             "React",
@@ -26,7 +25,7 @@ export const Group = [
     },
     {
         name: "TNKCars",
-        description: "A simple CRUD database project used for a car inventory system.",
+        description: "A simple CRUD database project functioning as a car inventory system.",
         tech: [
             "C#",
             ".NET",
