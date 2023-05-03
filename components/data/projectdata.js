@@ -2,7 +2,7 @@ export const Group = [
     {
         name: "MyPantry",
         description: 
-            "MyPantry is a cross-platform mobile application that helps users with everyday kitchen life with a full inventory system, search/save/create recipes, and spending tracker."
+            "MyPantry is a cross-platform mobile application that helps users with everyday kitchen life featuring a full inventory system, search/save/create recipes, and spending tracker."
         ,
         tech: [
             "JavaScript",
@@ -10,7 +10,8 @@ export const Group = [
             "Google Firebase",
             "Firebase Firestore NoSQL",
             "Git",
-        ]
+        ],
+        repo: "https://github.com/jonathanbnguyen/MyPantryFrontend"
     },
     {
         name: "Portfilio",
@@ -21,7 +22,8 @@ export const Group = [
             "Next.js",
             "Tailwind CSS",
             "Git"
-        ]
+        ],
+        repo: "https://github.com/jonathanbnguyen/Portfolio"
     },
     {
         name: "TNKCars",
@@ -32,6 +34,7 @@ export const Group = [
             "PostgreSQL",
             "WCF",
             "Git"
-        ]
+        ],
+        repo: "https://github.com/Mrnarwhal109/TNKCars"
     }
 ]

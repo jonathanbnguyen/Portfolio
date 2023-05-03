@@ -28,7 +28,6 @@ export const Group = [
         description: [
             "Develop and/or debug Operations Management Systems and related database interfaces using PL/SQL.",
             "Develop many enhancements to ERP HTML reports using Oracle source systems.",
-            "Currently focusing on Oracle database systems and Oracle ADF.",
             "Support network infrastructure by troubleshooting, upgrading, and assisting in the monitoring for potential issues.",
             "Provide IT support for all systems in production areas including support for printers, networking, tablets, and all Windows based systems."
         ],

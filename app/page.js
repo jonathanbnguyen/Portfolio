@@ -10,7 +10,17 @@ import Contact from "portfolio/components/sections/contact";
 
 export default function Home() {
 	return (
-		<main className="relative z-0">
+		<main className="relative z-0">			
+			<div>
+				<motion.div className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 0.5, delay: 1.5}}
+					>
+					<RightSide />
+				</motion.div>
+			</div>
+
 			<motion.div className="mx-auto p-2"
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
@@ -24,16 +34,6 @@ export default function Home() {
 			<Experience />
 			<Projects />
 			<Contact />
-			
-			<div>
-				<motion.div className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{ duration: 0.5, delay: 1.5}}
-					>
-					<RightSide />
-				</motion.div>
-			</div>
 
 		</main>
 	)

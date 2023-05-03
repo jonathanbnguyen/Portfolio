@@ -14,7 +14,7 @@ export function NavBar() {
     return (
         <div className='flex flex-row w-full justify-between rounded-br-lg shadow-lg bg-opacity-20 backdrop-blur-md rounded-bl-lg bg-blue-400'>
             <motion.a href='#home' initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
-                <Image src='/j.png' alt='logo' width={75} height={24} className='my-auto h-16 ml-16' />
+                <Image src='/jlogo.png' alt='' width={75} height={25} className='my-auto h-16 ml-16' />
             </motion.a>
             <div className="hidden md:inline-flex flex-row items-center h-16 pr-16">
                 {routes.map(route => (
