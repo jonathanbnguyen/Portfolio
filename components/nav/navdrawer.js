@@ -94,8 +94,8 @@ const NavDrawer = () => {
                         </div>
 
                         <div className='pt-28'>
-                            <p className='tracking-widest text-black text-center mb-6'>
-                                Connect With Me
+                            <p className='tracking-widest text-black text-center font-semibold mb-6'>
+                                Connect With Me.
                             </p>
                             <div className='flex justify-between'>
                                 <a
