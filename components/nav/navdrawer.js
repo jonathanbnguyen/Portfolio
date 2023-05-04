@@ -59,45 +59,45 @@ const NavDrawer = () => {
                 <div
                     className={
                         nav
-                        ? 'fixed right-0 top-0 w-[45%] h-screen bg-slate-200 p-10 ease-in duration-500'
+                        ? 'fixed right-0 top-0 w-[45%] h-screen bg-slate-200 p-6 ease-in duration-500'
                         : 'fixed right-[-100%] h-screen top-0 p-10 ease-in duration-500'
                     }
                 >
-                    <div>
-                        <div className='flex w-full items-center justify-between'>
-                            <Image
-                                src="/jlogo.png"
-                                width='87'
-                                height='35'
-                                alt='/'
-                            />
-                            <div
-                                onClick={handleNav}
-                                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
-                            >
-                                <AiOutlineClose />
-                            </div>
+
+                    <div className='flex flex-row items-center justify-between'>
+                        <Image
+                            src="/jlogo.png"
+                            width='90'
+                            height='35'
+                            alt='/'
+                        />
+                        <div
+                            onClick={handleNav}
+                            className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:text-blue-500'
+                        >
+                            <AiOutlineClose />
                         </div>
                     </div>
                     
                     <div className='py-4 flex flex-col'>
                         <div className="flex flex-col items-center">
+
                             {routes.map(route => (
                                 <div className="mx-8 my-6" key={route}>
-                                    <a href={`#${route.toLowerCase()}`} className=" text-black hover:text-blue-500"
+                                    <a href={`#${route.toLowerCase()}`} className=" text-black font-semibold hover:text-blue-500"
                                         onClick={() => setNav(!nav)}
                                     >
-                                        {route}
+                                        {route}.
                                     </a>
                                 </div>
                             ))}
                         </div>
 
-                        <div className='pt-32'>
+                        <div className='pt-28'>
                             <p className='tracking-widest text-black text-center mb-6'>
                                 Connect With Me
                             </p>
-                            <div className='flex justify-between w-full'>
+                            <div className='flex justify-between'>
                                 <a
                                     href='https://www.linkedin.com/in/nguyenbjonathan/'
                                     target='_blank'
