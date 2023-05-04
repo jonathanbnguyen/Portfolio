@@ -20,8 +20,18 @@ export function Banner() {
                     I have strong communication skills, and am confident in my ability to produce and
                     dependably learn through experience.
                 </p>
-            </div>
 
+                <div className="mt-6 text-xl">
+                    <a
+                        href="Jonathan_Nguyen_Resume.pdf"
+                        target="_blank"
+                        >
+                        <button className="rounded-md bg-transparent border border-blue-400 p-2 text-blue-400 hover:bg-blue-400/20 transition duration-200 ease-in">
+                            Resume
+                        </button>
+                    </a>
+                </div>  
+            </div>
         </section>
     )
 }
