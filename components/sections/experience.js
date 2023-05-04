@@ -15,7 +15,10 @@ export default function Experience() {
                     color: "white",
                 }}
                 contentArrowStyle={{ borderRight: "10px solid white" }}
-                date={experience.date}
+                date={
+                    <div className="md:min-w-0 hidden lg:block">
+                        {experience.date}
+                    </div>}
                 iconStyle={{ background: "white", color: "black"}}
                 // icon={
                 //     <div className='flex justify-center items-center w-full h-full'>
@@ -35,6 +38,7 @@ export default function Experience() {
                     >
                         {experience.name}
                     </p>
+                    <h1 className="lg:hidden text-base">{experience.date}</h1>
                 </div>
 
                 <ul className="list-disc text-white ml-4 mt-4 space-y-2 text-base mb-2">

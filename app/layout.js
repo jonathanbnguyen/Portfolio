@@ -1,6 +1,7 @@
 'use client';
 import './globals.css';
-import { NavBar } from '../components/navbar';
+import { NavBar } from '../components/nav/navbar';
+import NavDrawer from '../components/nav/navdrawer';
 
 export default function RootLayout({ children }) {
 	return (
@@ -15,6 +16,11 @@ export default function RootLayout({ children }) {
 				<div className="md:flex hidden md:sticky md:top-0 md:z-50">
 					<NavBar />
 				</div>
+
+				<div className="md:hidden sticky top-0 z-50">
+					<NavDrawer />
+				</div>
+
 				{children}
 			</body>
 		</html>
