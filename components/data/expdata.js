@@ -7,9 +7,8 @@ export const Group = [
             "Develop, test, deploy, and maintain application software working with established processes in C#.",
             "Design user interface in JavaScript using AngularJS Framework.",
             "RESTful Web Services and manage MS SQL Server databases.",
-            "Create and/or converted ad hoc SQL queries to stored procedures and create methods in C# to call stored procedures within a business proprietary application.",
-            "Enterprise IT processes, procedures, and architecture.",
             "Windows server SSL certificate configuration, issuance, and application to multi-site instances of IIS.",
+            "Enterprise IT processes, procedures, and architecture.",
             "Collaborate with teammates using git and scrum agile methodology to support innovative projects."
         ],
         tech: [
