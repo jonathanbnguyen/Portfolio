@@ -2,7 +2,9 @@ export const Group = [
     {
         name: "MyPantry",
         description: 
-            "MyPantry is a cross-platform mobile application that helps users with everyday kitchen life featuring a full inventory system, search/save/create recipes, and spendings tracker."
+            "Cross-platform mobile application assisting with everyday kitchen life featuring an inventory system, recipe system, and budget tracker."
+            + " Won Wichita State's Engineering Open House 2023 " + '"' + "Best Senior Design Project" + '"' +  " and "
+            + "3rd Place in Sunflower Electric Power Corporation and IEEE's " + '"' + "Excellence in Electrical & Electronics Engineering" + '".'
         ,
         tech: [
             "JavaScript",

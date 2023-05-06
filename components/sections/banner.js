@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 export function Banner() {
     return (
         <section id="home">
-            <div className="text-white min-h-screen m-auto xl:w-3/4 w-full xl:mt-48 xl:-mb-52">
+            <div className="text-white min-h-screen m-auto xl:w-3/4 w-full xl:mt-48 xl:-mb-52
+                md:w-3/4 md:mt-48 md:-mb-52">
                 <h1 className="text-lg tracking-wide">
                     Hi, my name is
                 </h1>
@@ -14,7 +15,7 @@ export function Banner() {
                     Jonathan Nguyen
                 </p>
 
-                <p className="md:max-w-5xl mt-6 w-1/2">
+                <p className="md:max-w-5xl mt-6 w-2/3">
                     I am a developer with 2+ years of experience in full-stack development.
                     I am a hard working and consistent individual who sets firm goals with a positive mindset.
                     I have strong communication skills, and am confident in my ability to produce and
