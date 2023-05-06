@@ -17,8 +17,8 @@ export default function About() {
                     <p>
                         I started off in technology from playing video games on my 
                         PlayStation 3. Ever since that day, I always had the curiosity of how these games
-                        were developed. I began more intuitive with technology with time and experience
-                        and but when I executed my first "Hello World" is when everything took off.
+                        were developed. I began more intuitive with technology with time and experience 
+                        but when I executed my first "Hello World" is when everything took off.
                     </p>
                     <p>
                         I have various hobbies I do during my free time. I love working out, playing and
