@@ -10,12 +10,12 @@ import Contact from "portfolio/components/sections/contact";
 
 export default function Home() {
 	return (
-		<main className="relative z-0">			
+		<main>			
 			<div>
 				<motion.div className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
-					transition={{ delay: 1}}
+					transition={{ delay: 1 }}
 					>
 					<RightSide />
 				</motion.div>
@@ -34,7 +34,6 @@ export default function Home() {
 			<Experience />
 			<Projects />
 			<Contact />
-
 		</main>
 	)
 }

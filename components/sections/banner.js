@@ -5,29 +5,28 @@ import { motion } from "framer-motion";
 export function Banner() {
     return (
         <section id="home">
-            <div className="text-white min-h-screen m-auto xl:w-3/4 w-full xl:mt-48 xl:-mb-52
-                md:w-3/4 md:mt-48 md:-mb-52">
+            <div className="text-white h-screen md:p-12 p-8 m-auto xl:w-3/4 w-full xl:mt-48 xl:-mb-52">
                 <h1 className="text-lg tracking-wide">
-                    Hi, my name is
+                    Hey, my name is
                 </h1>
 
                 <p className="md:text-7xl text-4xl font-bold mt-3">
-                    Jonathan Nguyen
+                    Jonathan Nguyen.
                 </p>
 
-                <p className="md:max-w-5xl mt-6 w-2/3">
+                <p className="mt-5 w-3/4">
                     I am a developer with 2+ years of experience in full-stack development.
                     I am a hard working and consistent individual who sets firm goals with a positive mindset.
                     I have strong communication skills, and am confident in my ability to produce and
                     dependably learn through experience.
                 </p>
 
-                <div className="mt-6 text-xl">
+                <div className="mt-5 text-xl">
                     <a
                         href="Jonathan_Nguyen_Resume.pdf"
                         target="_blank"
                         >
-                        <button className="rounded-md bg-transparent border border-blue-400 p-2 text-blue-400 hover:bg-blue-400/20 transition duration-200 ease-in">
+                        <button className="rounded-md bg-transparent border border-blue-400 p-2 text-blue-400 hover:bg-blue-400/20 transition duration-150 ease-in">
                             Resume
                         </button>
                     </a>
