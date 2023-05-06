@@ -14,7 +14,7 @@ export function Banner() {
                     Jonathan Nguyen.
                 </p>
 
-                <p className="mt-5 w-3/4">
+                <p className="mt-5 w-2/3">
                     I am a developer with 2+ years of experience in full-stack development.
                     I am a hard working and consistent individual who sets firm goals with a positive mindset.
                     I have strong communication skills, and am confident in my ability to produce and
