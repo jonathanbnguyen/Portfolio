@@ -32,13 +32,19 @@ export default function Experience() {
             >
                 <div>
                     <h1 className="text-white text-2xl font-bold">{experience.title}</h1>
-                    <p
+                    
+                    <h1
                         className="text-base font-semibold"
                         style={{ margin: 0 }}
                     >
                         {experience.name}
-                    </p>
-                    <h1 className="lg:hidden text-base">{experience.date}</h1>
+                    </h1>
+
+                    <h1 className="lg:hidden text-base" 
+                        style={{ margin: 0 }} 
+                    >
+                        {experience.date}
+                    </h1>
                 </div>
 
                 <ul className="list-disc text-white ml-4 mt-4 space-y-2 text-base mb-2">
