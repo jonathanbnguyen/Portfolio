@@ -33,8 +33,8 @@ export const Group = [
         tech: [
             "C#",
             ".NET",
+            "WPF",
             "PostgreSQL",
-            "WCF",
             "Git"
         ],
         repo: "https://github.com/Mrnarwhal109/TNKCars"
