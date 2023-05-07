@@ -22,7 +22,7 @@ export const Group = [
     },
     {
         name: "Integra Technologies Inc.",
-        title: "Information Technology Intern",
+        title: "Database Developer",
         date: "November 2019 - May 2021",
         description: [
             "Develop and/or debug Operations Management Systems and related database interfaces using PL/SQL.",
