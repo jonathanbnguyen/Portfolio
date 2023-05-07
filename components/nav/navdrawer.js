@@ -87,23 +87,34 @@ const NavDrawer = () => {
                                     <a href={`#${route.toLowerCase()}`} className=" text-black font-semibold hover:text-blue-500"
                                         onClick={() => setNav(!nav)}
                                     >
-                                        {route}.
+                                        {route}
                                     </a>
                                 </div>
                             ))}
+
+                            <div className="mx-8 my-6">
+                                <a
+                                    href="Jonathan_Nguyen_Resume.pdf"
+                                    target="_blank"
+                                >
+                                    <button className="font-semibold rounded-md bg-transparent border border-black p-2 text-black hover:bg-blue-600/20 transition duration-150 ease-in">
+                                        Resume
+                                    </button>
+                                </a>
+                            </div>  
                         </div>
 
                         <div className='pt-28'>
                             <p className='tracking-widest text-black text-center font-semibold mb-6'>
-                                Connect With Me.
+                                Connect With Me
                             </p>
-                            <div className='flex justify-between'>
+                            <div className='flex justify-evenly'>
                                 <a
                                     href='https://www.linkedin.com/in/nguyenbjonathan/'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
                                         <SlSocialLinkedin />
                                     </div>
                                 </a>
@@ -112,18 +123,18 @@ const NavDrawer = () => {
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
                                         <TbBrandGithub />
                                     </div>
                                 </a>
-                                <a href="Jonathan_Nguyen_Resume.pdf">
+                                {/* <a href="Jonathan_Nguyen_Resume.pdf">
                                     <div
                                         onClick={() => setNav(!nav)}
                                         className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                                     >
                                         <BsFillPersonLinesFill />
                                     </div>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>

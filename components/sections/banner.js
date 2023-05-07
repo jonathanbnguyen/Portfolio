@@ -1,5 +1,6 @@
 
 import { motion } from "framer-motion";
+import Typewriter from 'typewriter-effect';
 // h-screen mx-auto py-20 md:py-20 flex flex-col gap-4
 //                 lg:gap-8 md:px-20 xl:px-4 text-white
 export function Banner() {
@@ -14,14 +15,29 @@ export function Banner() {
                     Jonathan Nguyen.
                 </p>
 
-                <p className="mt-5 w-2/3">
-                    I am a developer with 2+ years of experience in full-stack development.
+                
+
+                <div className="mt-3 w-2/3 text-5xl">
+                    {/* <h1 className="text-2xl">
+                        I am a
+                    </h1> */}
+
+                    <Typewriter
+                        options={{
+                            strings: ["Listener.", "Leaner.", "Developer."],
+                            autoStart: true,
+                            loop: true,
+                            deleteSpeed: 100,
+                        }}
+                    />
+
+                    {/* I am a developer with 2+ years of experience in full-stack development.
                     I am a hard working and consistent individual who sets firm goals with a positive mindset.
                     I have strong communication skills, and am confident in my ability to produce and
-                    dependably learn through experience.
-                </p>
+                    dependably learn through experience. */}
+                </div>
 
-                <div className="mt-5 text-xl">
+                <div className="mt-6 text-xl">
                     <a
                         href="Jonathan_Nguyen_Resume.pdf"
                         target="_blank"

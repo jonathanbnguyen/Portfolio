@@ -11,8 +11,10 @@ export default function About() {
                         My name is Jonathan Nguyen. I am studying to obtain a Bachelor of Science
                         in Computer Science at Wichita State University. I have gained knowledge
                         with different technology stacks through school, work, and personal projects.
-                        I am continuing to grow and learn new things everyday. My passion
-                        stems from knowing I am making a difference for end users with my development.
+                        I am a hard working and consistent individual who sets firm goals with a positive mindset.
+                        I have strong communication skills, and am confident in my ability to produce and
+                        dependably learn through experience. 
+                        My passion stems from knowing I am making a difference for end users with my development.
                     </p>
                     <p>
                         I started off in technology from playing video games on my 
@@ -22,7 +24,7 @@ export default function About() {
                     </p>
                     <p>
                         I have various hobbies I do during my free time. I love working out, playing and
-                        watching basketball, video games, and lastly, movies. 
+                        watching basketball, video games, and movies. 
                     </p>
                 </div>
 
