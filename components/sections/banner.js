@@ -17,7 +17,7 @@ export function Banner() {
 
                 
 
-                <div className="mt-3 w-2/3 text-5xl">
+                <div className="md:text-5xl text-2xl mt-3">
                     {/* <h1 className="text-2xl">
                         I am a
                     </h1> */}
