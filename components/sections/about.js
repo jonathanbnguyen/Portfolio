@@ -8,23 +8,21 @@ export default function About() {
             <div className="flex flex-row justify-between flex-wrap">
                 <div className="md:w-1/2 text-white mt-4 space-y-4 leading-7">
                     <p>
-                        My name is Jonathan Nguyen. I am studying to obtain a Bachelor of Science
-                        in Computer Science at Wichita State University. I have gained knowledge
-                        with different technology stacks through school, work, and personal projects.
-                        I am a hard working and consistent individual who sets firm goals with a positive mindset.
-                        I have strong communication skills, and am confident in my ability to produce and
-                        dependably learn through experience. 
-                        My passion stems from knowing I am making a difference for end users with my development.
+                        My name is Jonathan Nguyen. I am studying to obtain a Bachelor of Science in Computer Science at
+                        Wichita State University. I have gained knowledge of different technology stacks through school, work,
+                        and personal projects. I am a hard working and consistent individual who sets firm goals with a
+                        positive mindset. I have strong communication skills and am confident in my ability to produce and
+                        dependably learn through experience. My passion stems from knowing I am making a difference for end users
+                        with my development.
                     </p>
                     <p>
-                        I started off in technology from playing video games on my 
-                        PlayStation 3. Ever since that day, I always had the curiosity of how these games
-                        were developed. I began more intuitive with technology with time and experience 
-                        but when I executed my first "Hello World" is when everything took off.
+                        I started off in technology by playing video games on my PlayStation 3. Ever since that day,
+                        I have always had a curiosity about how these games were developed. I became more intuitive with
+                        technology with time and experience, but when I executed my first "Hello World", everything took off.
                     </p>
                     <p>
-                        I have various hobbies I do during my free time. I love working out, playing and
-                        watching basketball, video games, and movies. 
+                        I have various hobbies that I do during my free time. I love working out,
+                        playing and watching basketball, video games, and movies.
                     </p>
                 </div>
 
