@@ -14,10 +14,14 @@ export const Group = [
         tech: [
             "C#",
             ".NET",
-            "SQL Server",
+            "JavaScript",
             "AngularJS",
+            "Microsoft SQL Server",
+            "RESTful Web Services",
+            "MVC",
             "Git",
-            "Azure DevOps"
+            "Azure DevOps",
+            "Agile"
         ]
     },
     {
