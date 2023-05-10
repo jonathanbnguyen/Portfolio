@@ -37,7 +37,7 @@ export function Banner() {
                     dependably learn through experience. */}
                 </div>
 
-                <div className="mt-6 text-xl">
+                <div className="mt-5 text-xl">
                     <a
                         href="Jonathan_Nguyen_Resume.pdf"
                         target="_blank"
