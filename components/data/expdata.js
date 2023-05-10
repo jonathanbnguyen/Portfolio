@@ -29,10 +29,10 @@ export const Group = [
         title: "Database Developer",
         date: "November 2019 - May 2021",
         description: [
-            "Develop and/or debug Operations Management Systems and related database interfaces using PL/SQL.",
-            "Develop many enhancements to ERP HTML reports using Oracle source systems.",
-            "Support network infrastructure by troubleshooting, upgrading, and assisting in the monitoring for potential issues.",
-            "Provide IT support for all systems in production areas including support for printers, networking, tablets, and all Windows based systems."
+            "Developed and/or debugged Operations Management Systems and related database interfaces using PL/SQL.",
+            "Developed many enhancements to ERP HTML reports using Oracle source systems.",
+            "Supported network infrastructure by troubleshooting, upgrading, and assisting in the monitoring for potential issues.",
+            "Provided IT support for all systems in production areas including support for printers, networking, tablets, and all Windows based systems."
         ],
         tech: [
             "Oracle SQL",
