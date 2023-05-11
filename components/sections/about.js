@@ -8,7 +8,7 @@ export default function About() {
             <div className="flex flex-row justify-between flex-wrap">
                 <div className="md:w-1/2 text-white mt-4 space-y-4 leading-7">
                     <p>
-                        My name is Jonathan Nguyen. I am studying to obtain a Bachelor of Science in Computer Science at
+                        My name is Jonathan Nguyen. I have a Bachelor of Science in Computer Science from 
                         Wichita State University. I have gained knowledge of different technology stacks through school, work,
                         and personal projects. I am a hard working and consistent individual who sets firm goals with a
                         positive mindset. I have strong communication skills and am confident in my ability to produce and
