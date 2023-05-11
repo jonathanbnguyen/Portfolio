@@ -24,7 +24,7 @@ export function Banner() {
 
                     <Typewriter
                         options={{
-                            strings: ["Listener.", "Learner.", "Developer."],
+                            strings: ["Learner.", "Builder", "Developer."],
                             autoStart: true,
                             loop: true,
                             deleteSpeed: 100,
