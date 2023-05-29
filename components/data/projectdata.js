@@ -29,7 +29,7 @@ export const Group = [
     },
     {
         name: "TNKCars",
-        description: "A simple CRUD database project functioning as a car inventory system.",
+        description: "A simple CRUD database application functioning as a car inventory system.",
         tech: [
             "C#",
             ".NET",
