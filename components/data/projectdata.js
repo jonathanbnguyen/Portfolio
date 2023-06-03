@@ -3,8 +3,7 @@ export const Group = [
         name: "MyPantry",
         description: 
             "Cross-platform mobile application assisting with everyday kitchen life featuring an inventory system, recipe system, and budget tracker."
-            + " Won Wichita State's Engineering Open House 2023 " + '"' + "Best Senior Design Project" + '"' +  " and "
-            + "3rd Place in Sunflower Electric Power Corporation and IEEE's " + '"' + "Excellence in Electrical & Electronics Engineering" + '".'
+            + " Won Wichita State's Engineering Open House 2023 " + '"' + "Best Senior Design Project" + '".'
         ,
         tech: [
             "JavaScript",
