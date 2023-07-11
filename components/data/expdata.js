@@ -1,8 +1,25 @@
 export const Group = [
     {
+        name: "UMB Financial Corporation",
+        title: "Application Developer",
+        date: "July 2023 - Present",
+        description: [
+        ],
+        tech: [
+            "C#",
+            ".NET",
+            "Microsoft SQL Server",
+            "RESTful Web Services",
+            "MVC",
+            "Git",
+            "Azure DevOps",
+            "Agile"
+        ]
+    },
+    {
         name: "Textron Aviation",
         title: "Software Developer",
-        date: "May 2021 - Present",
+        date: "May 2021 - July 2023",
         description: [
             "Develop, test, deploy, and maintain application software working with established processes in C#.",
             "Design user interface in JavaScript using AngularJS Framework.",
