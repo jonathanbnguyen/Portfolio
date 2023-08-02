@@ -22,7 +22,6 @@ export const Group = [
         name: "Backend",
         values: [
             ".NET",
-            "REST API",
             "RESTful Web Services",
             "Microsoft Internet Information Services"
         ]
