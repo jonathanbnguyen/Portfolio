@@ -8,10 +8,10 @@ export default function Contact() {
     return (
         <Section id="contact" title="Contact">
             <div className="w-full">
-                <div className="m-auto px-2 pt-4 w-[50%]">
+                <div className="m-auto px-2 pt-4 w-[65%]">
                     <div className="">
                         {/* left */}
-                        <div className="h-fit col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
+                        <div className="h-fit w-full shadow-xl shadow-gray-400 rounded-xl p-4">
                             <div className="lg:p-4 h-full">
                                 <div>
                                     <p className="text-white text-center text-2xl">Connect With Me</p>
