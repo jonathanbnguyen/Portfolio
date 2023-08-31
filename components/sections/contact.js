@@ -8,8 +8,8 @@ export default function Contact() {
     return (
         <Section id="contact" title="Contact">
             <div className="w-full">
-                <div className="max-w-full m-auto px-2 pt-4 w-full">
-                    <div className="grid lg:grid-cols-5 gap-8">
+                <div className="m-auto px-2 pt-4 w-[50%]">
+                    <div className="">
                         {/* left */}
                         <div className="h-fit col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
                             <div className="lg:p-4 h-full">
@@ -36,7 +36,7 @@ export default function Contact() {
                                             </div>
                                         </a>
 
-                                        <a
+                                        {/* <a
                                             href="https://instagram.com/jonathanbnguyen"
                                             target="_blank"
                                             rel="noreferrer"
@@ -44,7 +44,7 @@ export default function Contact() {
                                             <div className="text-xl bg-white rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                                                 <SlSocialInstagram />
                                             </div>
-                                        </a>
+                                        </a> */}
 
                                         <a href="Jonathan_Nguyen_Resume.pdf">
                                             <div className="text-2xl bg-white rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -56,7 +56,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        {/* right */}
+                        {/* right
                         <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                             <div className="p-4">
                                 <form
@@ -105,7 +105,7 @@ export default function Contact() {
                                     </button>
                                 </form>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     
                     <div className="flex justify-center py-10">
