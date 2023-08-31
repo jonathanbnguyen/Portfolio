@@ -19,13 +19,13 @@ const RightSide = () => {
                         <SlSocialLinkedin />
                     </span>
                 </a>
-                <a href="https://instagram.com/jonathanbnguyen/" target="_blank">
+                {/* <a href="https://instagram.com/jonathanbnguyen/" target="_blank">
                     <span className="w-10 h-10 text-xl bg-white rounded-full inline-flex items-center 
                         justify-center hover:text-blue-500 cursor-pointer hover:-translate-y-2 
                         transition-all duration-300">
                         <SlSocialInstagram />
                     </span>
-                </a>                          
+                </a>                           */}
             </div>
             <div className="w-[2px] h-32 bg-white"></div>
         </div>
