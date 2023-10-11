@@ -4,13 +4,20 @@ export const Group = [
         title: "Application Developer",
         date: "July 2023 - Present",
         description: [
+            "API Solutions development team provides application development and Tier 2 support.",
+            "Work closely with business partners in developing new web applications, enhancing existing ones, and building enterprise services for our Digital, FinTech and Healthcare partners.",
+            "Participate in the Software Development Life Cycle (SDLC) using Agile methodologies.",
+            "Coordinate with DevOps while deploying the applications.",
+            "Build testable code and learn new technologies."
         ],
         tech: [
             "C#",
             ".NET",
+            "ASP.NET Web API",
+            "JavaScript",
+            "Typescript",
             "Microsoft SQL Server",
-            "RESTful Web Services",
-            "MVC",
+            "Oracle SQL",
             "Git",
             "Azure DevOps",
             "Agile"

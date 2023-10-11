@@ -2,15 +2,17 @@ export const Group = [
     {
         name: "Languages",
         values: [
-            "C++",
             "C#",
+            "C++",
             "Python",
-            "JavaScript"
+            "JavaScript",
+            "Typescript"
         ]
     },
     {
         name: "Frontend",
         values: [
+            "Angular",
             "AngularJS",
             "React",
             "React Native",
@@ -41,7 +43,11 @@ export const Group = [
             "Microsoft Visual Studio",
             "Microsoft Visual Code",
             "Git",
+            "Postman",
+            "Soap UI",
+            "Swagger",
             "Microsoft SQL Server Management Studio",
+            "Oracle SQL Devleoper",
             "Azure DevOps"
         ]
     }           
