@@ -47,7 +47,7 @@ export const Group = [
             "Soap UI",
             "Swagger",
             "Microsoft SQL Server Management Studio",
-            "Oracle SQL Devleoper",
+            "Oracle SQL Developer",
             "Azure DevOps"
         ]
     }           
