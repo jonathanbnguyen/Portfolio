@@ -22,7 +22,7 @@ export default function About() {
                     </p>
                     <p>
                         I have various hobbies that I do during my free time. I love working out,
-                        playing and watching basketball, video games, and movies.
+                        basketball, video games, and movies.
                     </p>
                 </div>
 
