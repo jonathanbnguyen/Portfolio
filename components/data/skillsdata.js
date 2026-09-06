@@ -6,7 +6,7 @@ export const Group = [
             "C++",
             "Python",
             "JavaScript",
-            "Typescript"
+            "TypeScript"
         ]
     },
     {
@@ -24,8 +24,7 @@ export const Group = [
         name: "Backend",
         values: [
             ".NET",
-            "RESTful Web Services",
-            "Microsoft Internet Information Services"
+            "RESTful/REST API",
         ]
     },
     {
@@ -37,18 +36,24 @@ export const Group = [
             "Firebase Firestore"
         ]
     },
+        {
+        name: "Cloud",
+        values: [
+            "AWS (Amazon Web Services)",
+            "Azure"
+        ]
+    },
     {
         name: "Other",
         values: [
             "Microsoft Visual Studio",
             "Microsoft Visual Code",
-            "Git",
             "Postman",
-            "Soap UI",
+            "ReadyAPI",
             "Swagger",
             "Microsoft SQL Server Management Studio",
             "Oracle SQL Developer",
-            "Azure DevOps"
+            "pgAdmin"
         ]
     }           
 ]
