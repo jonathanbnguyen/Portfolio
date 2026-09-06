@@ -20,7 +20,7 @@ export const Group = [
             "Oracle SQL",
             "PostgreSQL",
             "AWS",            
-            "Azure DevOps",
+            "Azure",
         ]
     },
     {
@@ -43,7 +43,7 @@ export const Group = [
             "Microsoft SQL Server",
             "RESTful API",
             "MVC",
-            "Azure DevOps",
+            "Azure",
         ]
     },
     {
